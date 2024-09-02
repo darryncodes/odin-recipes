@@ -1,0 +1,100 @@
+:root {
+    --background: #fff;
+    --primary: #121212;
+    --secondary: #114388;
+    --accent: #d54215;
+    --highlight: #ffeee9;
+}
+
+body {
+    font-family: 'Roboto', system-ui;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: var(--primary);
+    background-color: var(--background);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Halant', system-ui;
+    font-weight: 600;
+}
+
+h1 {
+    padding: 2rem 0;
+}
+
+h3 {
+    padding-bottom: 1rem;
+    color: var(--accent);
+}
+
+h4 {
+    padding: 1rem 0;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    background-color: var(--secondary);
+    padding: 2rem;
+}
+
+hr {
+    height: 1px;
+    background-color: var(--highlight);
+    margin: 1rem 0;
+}
+
+ul,
+ol {
+    margin-left: 1rem;
+}
+
+ol {
+    padding-bottom: 2rem;
+}
+
+.logo {
+    height: 3rem;
+    width: 3rem;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    color: var(--primary);
+
+    li a {
+        text-decoration: none;
+    }
+}
+
+.container {
+    padding: 1rem;
+    max-width: 36rem;
+    margin: 0 auto;
+}
+
+.recipe-img {
+    border-radius: 0.75rem;
+    margin-top: 2rem;
+}
+
+.intro {
+    background-color: var(--highlight);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.75rem;
+
+    h2 {
+        color: var(--accent);
+    }
+}
