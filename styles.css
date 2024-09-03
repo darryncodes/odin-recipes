@@ -20,6 +20,7 @@ h3,
 h4 {
     font-family: 'Halant', system-ui;
     font-weight: 600;
+    line-height: 1;
 }
 
 h1 {
@@ -75,6 +76,35 @@ ol {
     li a {
         text-decoration: none;
     }
+}
+
+.hp-card {
+    max-width: 40rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    color: var(--primary);
+    transition: transform ease-in 0.3s;
+}
+
+.hp-card:hover {
+    transform: translateY(-10px);
+}
+
+.hp-card__img {
+    border-radius: 0.75rem;
+}
+
+.hp-card__content {
+    padding: 2rem;
+}
+
+.hp-card__heading {
+    color: var(--accent);
+}
+
+.hp-card div p {
+    padding-right: 1rem;
 }
 
 .container {
